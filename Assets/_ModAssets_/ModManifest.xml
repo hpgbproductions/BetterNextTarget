@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="56561819-64dc-4a83-ac9c-b65e08458da2">
+  <Mod name="Better Next Target" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-11-07T12:43:22.6941547Z" apiVersion="1.0.0.0" description="! WINDOWS ONLY !&#xA;&#xA;Test for selecting next target based on screen position, not load order.">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="BetterNextTarget" path="Assets/_ModAssets_/BetterNextTarget.prefab" />
+    </GameObjects>
+    <Assets />
+    <MaterialShaderMap />
+    <Assemblies>
+      <Assembly name="BetterNextTarget-Assembly-CSharp.dll" path="Assets/_ModAssets_/BetterNextTarget-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps />
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins>
+          <MapPlugin objectName="BetterNextTarget" />
+        </MapPlugins>
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
